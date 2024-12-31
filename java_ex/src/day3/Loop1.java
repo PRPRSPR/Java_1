@@ -9,7 +9,7 @@ public class Loop1 {
 			if(i==5) {
 				continue; //더 이상 내용을 실행하지않고 바로 반복 후 작업(i++)으로 넘어감
 			}
-			System.out.println(i);
+			System.out.print(i);
 		}
 	}
 
