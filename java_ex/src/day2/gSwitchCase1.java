@@ -1,6 +1,6 @@
 package day2;
 
-public class SwitchCase1 {
+public class gSwitchCase1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

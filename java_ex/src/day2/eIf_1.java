@@ -1,6 +1,6 @@
 package day2;
 
-public class If_1 {
+public class eIf_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

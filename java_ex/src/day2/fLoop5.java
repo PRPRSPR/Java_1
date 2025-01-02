@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class Loop5 {
+public class fLoop5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

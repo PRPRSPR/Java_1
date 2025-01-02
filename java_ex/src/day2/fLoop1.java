@@ -1,6 +1,6 @@
 package day2;
 
-public class Loop1 {
+public class fLoop1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
