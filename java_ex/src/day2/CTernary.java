@@ -1,6 +1,6 @@
 package day2;
 
-public class cTernary {
+public class CTernary {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
