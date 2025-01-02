@@ -2,7 +2,7 @@ package day5;
 
 import java.util.Arrays;
 
-public class DSelectionSort3 {
+public class SelectionSort3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
