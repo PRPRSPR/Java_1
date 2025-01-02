@@ -3,7 +3,7 @@ package day4;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Array6 {
+public class bArray6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

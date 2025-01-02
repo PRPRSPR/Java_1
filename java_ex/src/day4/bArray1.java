@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Arrays;
 
-public class Array1 {
+public class bArray1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

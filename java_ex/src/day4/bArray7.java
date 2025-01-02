@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Arrays;
 
-public class Array7 {
+public class bArray7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,7 +26,7 @@ public class Array7 {
 //		int maxindex=0; //arr[maxindex]=5
 //		
 //		for(int i=1;i<arr.length;i++) { //i=0;도 가능하나 0번쨰와 0번쨰는 비교할 필요없음. i=1;
-//			if(arr[i]>maxindex) {
+//			if(arr[i]>arr[maxindex]) {
 //				maxindex = i;
 //			}
 //		}

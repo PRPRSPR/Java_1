@@ -3,7 +3,7 @@ package day4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Array8 {
+public class bArray8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -39,6 +39,7 @@ public class Array8 {
 		
 		System.out.println("숫자를 몇 개 저장하시겠습니까?");
 		int size; //초기화 값 없이 선언만. 위치 주의. while문 안에 넣으면 바깥에서 쓸 수 없음.
+		
 		while(true) {
 			System.out.print("= ");
 			size = scan.nextInt();
@@ -48,7 +49,9 @@ public class Array8 {
 				break; //무한루프 종료.
 			}
 		}
+		
 		int arr[]=new int[size]; //size 만큼 배열 생성
+		
 		for(int i=0; i<arr.length;i++) {
 			System.out.print((i+1)+"번째 숫자 입력 : ");
 			int input = scan.nextInt();

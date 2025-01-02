@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Scanner;
 
-public class Quiz1 {
+public class aQuiz1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
