@@ -3,7 +3,7 @@ package day4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BArray4 {
+public class Array4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
