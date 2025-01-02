@@ -52,7 +52,7 @@ public class SelectionSort1 {
 		for(int i=0; i<arr.length-1; i++) { 
 			int maxIndex = i;
 			for(int j=(i+1); j<arr.length; j++) { 
-				if(arr[maxIndex]<arr[j]) {
+				if(arr[i]<arr[j]) {
 					maxIndex=j;
 				}
 			}
