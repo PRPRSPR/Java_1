@@ -2,7 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class EIf_4 {
+public class If4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

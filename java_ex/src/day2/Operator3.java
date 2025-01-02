@@ -1,6 +1,6 @@
 package day2;
 
-public class BOperator3 {
+public class Operator3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
