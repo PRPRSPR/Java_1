@@ -1,6 +1,6 @@
 package day3;
 
-public class bLoop1 {
+public class BLoop1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
