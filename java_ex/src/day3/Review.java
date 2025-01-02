@@ -2,7 +2,7 @@ package day3;
 
 import java.util.Scanner;
 
-public class AReview {
+public class Review {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

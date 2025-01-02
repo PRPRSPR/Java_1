@@ -1,6 +1,6 @@
 package day3;
 
-public class CForSample {
+public class ForSample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

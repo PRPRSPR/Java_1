@@ -2,7 +2,7 @@ package day3;
 
 import java.util.Scanner;
 
-public class FStringEx1 {
+public class StringEx1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package day3;
 
-public class BLoop3_DoWhile {
+public class Loop3_DoWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

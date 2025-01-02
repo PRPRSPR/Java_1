@@ -3,7 +3,7 @@ package day3;
 import java.util.Random;
 import java.util.Scanner;
 
-public class DRandomGugudan1 {
+public class RandomGugudan1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
