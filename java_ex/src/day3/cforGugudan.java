@@ -1,6 +1,6 @@
 package day3;
 
-public class forGugudan {
+public class cforGugudan {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
