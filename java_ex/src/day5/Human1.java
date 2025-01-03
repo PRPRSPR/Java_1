@@ -1,6 +1,6 @@
 package day5;
 
-public class Human {
+public class Human1 {
 	//변수
 	String name;
 	int age;

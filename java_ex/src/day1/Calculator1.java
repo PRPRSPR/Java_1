@@ -1,6 +1,6 @@
 package day1;
 
-public class Calculator {
+public class Calculator1 {
 
 	public static void main(String[] args) {
 		int x = 10;

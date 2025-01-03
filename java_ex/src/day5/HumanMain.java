@@ -5,7 +5,7 @@ public class HumanMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Human hong = new Human();
+		Human1 hong = new Human1();
 		hong.name = "홍길동";
 		hong.age = 30;
 		hong.addr = "인천";
