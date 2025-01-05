@@ -40,7 +40,7 @@ public class Food {
 //		this.price=price;
 //	}
 //	
-//	void getPrice() {
+//	int getPrice() {
 //		return  price;
 //	}
 }

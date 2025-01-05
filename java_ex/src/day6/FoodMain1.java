@@ -7,7 +7,7 @@ public class FoodMain1 {
 		Food beer = new Food("맥주",3000);
 		beer.setPrice(3500);
 		
-		System.out.println();
+		System.out.println(beer.getPrice());
 	}
 
 }
