@@ -18,17 +18,6 @@ public class ListMap2 {
 			}
 		}
 	}
-//	public static void fName(ArrayList list, String name) {
-//		for(int i=0; i<list.size();i++) {
-//			HashMap<String, Object> map1 = (HashMap<String, Object>) list.get(i);
-//			if(name.equals(map1.get("name"))) {
-//				
-//			}else {
-//				
-//			}
-//		}
-//	}
-	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -70,8 +59,8 @@ public class ListMap2 {
 //						System.out.println("1~300개 사이의 값 입력");
 //					}
 //				} 
-				
-				//동일한 이름의 과일. 가격 수정 x. 개수 누적
+				// 위에서 만든 메소드로 간결하게 코딩하기 
+				// 동일한 이름의 과일. 가격 수정 x. 개수 누적
 				
 				System.out.print("과일명 : ");
 				String name = scan.next();
@@ -132,6 +121,8 @@ public class ListMap2 {
 //						break;
 //					}
 //				}
+				// >> 원했던 기능처럼 실행은 되지만 코드자체는 알아보기 어려움
+				
 				System.out.print("구매할 과일명 : ");
 				String name = scan.next();
 				boolean flg = false;
