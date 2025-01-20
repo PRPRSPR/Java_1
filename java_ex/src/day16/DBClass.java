@@ -6,8 +6,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBClass {
-	Connection conn;
-	Statement stmt = null;
+	public Connection conn;
+	public Statement stmt = null;
 	public DBClass() {
 		// TODO Auto-generated constructor stub
 		try {
