@@ -1,4 +1,4 @@
-package day9.sub;
+package day9sub;
 
 public interface Calculator { // "interface" 인터페이스 선언
 	

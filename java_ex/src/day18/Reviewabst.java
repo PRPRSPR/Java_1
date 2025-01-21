@@ -1,6 +1,6 @@
 package day18;
 
-public class Review_abstract {
+public class Reviewabst {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

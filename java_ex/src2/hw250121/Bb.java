@@ -1,6 +1,6 @@
 package hw250121;
 
-public class Bb extends OddDetector {
+public class Bb extends OddDetec {
 	public Bb(int n) {
 		super(n);
 	}
@@ -13,10 +13,4 @@ public class Bb extends OddDetector {
 			return false;
 		}
 	}
-
-	public static void main(String[] args) {
-		Bb b = new Bb(10);
-		System.out.println(b.isOdd());
-	}
-
 }
