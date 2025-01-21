@@ -1,6 +1,6 @@
 package hw250121;
 
-public class ClassProblem {
+public class ClsProblem {
 //	1. 자바 클래스와 객체에 대한 설명 중 틀린 것은? >> 4
 //
 //		1. 클래스 바깥에 전역 변수는 선언할 수 없다.

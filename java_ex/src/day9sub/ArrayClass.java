@@ -1,4 +1,4 @@
-package day9.sub;
+package day9sub;
 
 public class ArrayClass {
 	

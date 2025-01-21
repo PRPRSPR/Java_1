@@ -1,4 +1,4 @@
-package day9.sub;
+package day9sub;
 
 import java.lang.classfile.instruction.IncrementInstruction;
 

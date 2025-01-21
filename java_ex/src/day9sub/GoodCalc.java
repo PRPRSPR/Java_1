@@ -1,4 +1,4 @@
-package day9.sub;
+package day9sub;
 
 public class GoodCalc implements Calculator {
 //	>> "implements" 인터페이스 구현. Calculator 인터페이스의 모든 추상메소드를 구현해야함

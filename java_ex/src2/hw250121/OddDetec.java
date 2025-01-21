@@ -1,9 +1,9 @@
 package hw250121;
 
-public abstract class OddDetector {
+public abstract class OddDetec {
 	protected int n;
 
-	public OddDetector(int n) {
+	public OddDetec(int n) {
 		this.n = n;
 	}
 

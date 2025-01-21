@@ -1,6 +1,6 @@
 package hw250121;
 
-public class InheritanceProblem {
+public class InhProblem {
 
 //	1. 자바의 모든 클래스가 반드시 상속받게 되어 있는 클래스는?
 //			1. Object
