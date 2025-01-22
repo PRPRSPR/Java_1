@@ -39,6 +39,7 @@ public class TestP {
 //		숫자를 입력받아서 배열의 모든 공간에 넣으시오.
 //		조건1. 배열에 들어가는 숫자는 1부터 100사이의 숫자일 것
 //		조건2. 중복된 숫자는 들어가지 못하게 할 것
+//		조건3. 배열 내림차순
 		
 		int arr[] = new int[6];
 		for(int i=0; i<arr.length; i++) {
@@ -46,7 +47,7 @@ public class TestP {
 			System.out.print((i+1)+"번째 숫자 입력 : ");
 			int input = scan.nextInt();
 			if(input>=1||input<=100) {
-				for(int j=0; j<arr.length; j++) {
+				for(int j=0; j<i; j++) {
 					if(input == arr[j]) {
 						System.out.println("중복된 입력입니다.");
 						flg = true;
@@ -62,6 +63,32 @@ public class TestP {
 				i--;
 			}
 		}
+//		
+//		>> 무한루프+flg 사용
+//		
+//		int arr2[] = new int[6];
+//		for(int i=0; i<arr2.length; i++) {
+//			while(true) {
+//				System.out.print((i+1)+"번째 숫자 입력 : ");
+//				int input = scan.nextInt();
+//				if(input<=1||input>=100) {
+//					System.out.println("올바른 숫자 입력");
+//				}else {
+//					boolean flg = false;
+//					for(int j=0; j<i; j++) {
+//						if(input == arr2[j]) {
+//							System.out.println("중복된 입력입니다.");
+//							flg = true;
+//						}
+//					}
+//					if(!flg) {
+//						arr2[i] = input;
+//						break;
+//					}
+//				}
+//			}
+//		}
+		
 		for(int i=0; i<arr.length-1; i++) {
 			int max =i;
 			for(int j=i+1; j<arr.length; j++) {
@@ -95,6 +122,7 @@ public class TestP {
 		for(int i=0; i<subjectList.size(); i++) {
 			System.out.println(subjectList.get(i));
 		}
+		
 		
 //		주제 : 과일 가게 프로그램
 //		* 숫자 1을 입력할 경우 '과일 추가', 2를 입력할 경우 '과일 삭제', 3을 입력할 경우 '가격 수정',
@@ -137,6 +165,7 @@ public class TestP {
 //
 //		5. 종료 부분
 //		-> 프로그램 종료
+		
 		ArrayList<HashMap<String, Object>> list = new ArrayList<>();
 		
 		while(true) {

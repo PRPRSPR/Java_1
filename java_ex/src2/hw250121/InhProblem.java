@@ -8,7 +8,7 @@ public class InhProblem {
 //			3. Class
 //			4. Super
 
-//	>> 1
+//	>> 1 / 최상위클래스
 
 //		2. 상속을 이용하여 다음 클래스들을 간결한 구조로 재작성하라.
 //		class SharpPencil { // 샤프펜슬
@@ -37,7 +37,8 @@ public class InhProblem {
 //			public void refill (int n) { setAmount(n); }
 //		 }  
 
-//	>> day18/SharpPencil, day18/Ballpen , day18/FountainPen
+//	>> day18/SharpPencil, day18/Ballpen, day18/FountainPen, day18/Pen
+//	공통된 변수와 메소드를 찾아 하나의 클래스(Pen)로 만들고 상속
 
 //		3. 다음 중 설명에 적절한 단어를 기입하라.
 //		자바에서 상속받는 클래스를 ________라고 부르며,
@@ -55,7 +56,7 @@ public class InhProblem {
 //		슈퍼 클래스의 public 멤버는 모든 다른 클래스에서 접근할 수 있다.
 //		슈퍼 클래스의 디폴트 멤버는 같은 패키지에 있는 모든 다른 클래스에서 접근 가능하다.
 
-//	>> 4
+//	>> 2 / 다른 패키지에 있더라도 상속받은 클래스는 접근 가능.
 
 //		5. 다음 빈칸에 적절한 한 줄의 코드를 삽입하라.
 //
@@ -88,7 +89,10 @@ public class InhProblem {
 //			}
 //		}
 
-//	>> B: 11
+//	>> A
+//	>> B: 11  
+//	B(int x) 생성자 호출 시 상속받은 A 클래스의 기본생성자를 우선 호출.
+//	A()생성자 호출로 A 출력 후 줄바꾸고 B(int x) 생성자 호출하여 B: 11 출력
 
 //		7. 다음 코드에서 생성자로 인한 오류를 찾아내어 이유를 설명하고 오류를 수정하라.
 //		class A {
@@ -148,7 +152,7 @@ public class InhProblem {
 //	(4).void f();를 오버라이딩
 //	>> 추상클래스를 상속받은 일반클래스가 되려면 모든 추상메소드를 오버라이딩 해야 함.
 //	(5).int f();를 오버라이딩
-//	>> (4)와 같은 이유.
+//	>> (4)와 같은 이유. 리턴타입이 달라 오버라이딩되지 않음.
 	
 	
 //		9. 추상 클래스를 구현하는 문제이다. 실행 결과와 같이 출력되도록 클래스 B를 완성하라.
@@ -169,7 +173,7 @@ public class InhProblem {
 //			}
 //		}
 
-//	>> 이 패키지에 클래스/메인 만들었음
+//	>> hw250121/Bb, BbMain, OddDetec
 	
 	
 //		10. 다음 상속 관계의 클래스들이 있다.
@@ -199,7 +203,12 @@ public class InhProblem {
 //		System.out.println(x instanceof B);
 //		System.out.println(x instanceof C);
 
-//	>> true,false
+//	>> true, false
+//	D 객체가 A 객체로 업캐스팅. A 를 상속받는 B 를 상속받는 C,D.
+//	C 와 D 는 상속받은 B 와 A 타입을 가질 수 있지만
+//	System.out.println(x instanceof B); => true
+//	서로의 타입은 가질 수 없다.
+//	System.out.println(x instanceof C); => false
 	
 	
 //		11. 다형성에 대한 설명 중 틀린 것은?

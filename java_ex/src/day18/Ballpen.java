@@ -1,6 +1,6 @@
 package day18;
 
-public class Ballpen extends SharpPencil{
+public class Ballpen extends Pen{
 	private String color; // 볼펜의 색
 
 	public String getColor() {

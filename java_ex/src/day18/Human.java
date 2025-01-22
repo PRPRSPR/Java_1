@@ -1,9 +1,9 @@
 package day18;
 
 public class Human {
-	String name;
-	int age;
-	String phone;
+	private String name;
+	private int age;
+	private String phone;
 	
 	Human(String name, int age){
 		this.name = name;

@@ -15,27 +15,27 @@ public class ClsProblem {
 //		3. this()는 생성자 내에서 다른 생성자를 호출하는 코드이다.
 //		4. 생성자에서는 아무 값도 리턴하지 않기 때문에 return문을 사용할 수 없다.
 //
-//	3. 다음 코드 중 오류가 있는 것은? >> 1
+//	3. 다음 코드 중 오류가 있는 것은? >> 3
 //
 //		1. Power []p = new Power[10];    
 //		2. Power p[] = new Power[10];    
 //		3. Power p[10] = new Power[10];    
 //		4. Power[] p;
 //
-//	4. 다음 코트에 대해 설명하는 문항 중 틀린 것은? >> 2
+//	4. 다음 코드에 대해 설명하는 문항 중 틀린 것은? >> 2
 //			Book[] book = new Book[10];
 //		1. book은 배열에 대한 레퍼런스이다.
 //		2. Book 객체가 10개 만들어진다.
 //		3. for(int i=0; i<book.size; i++) book[i] = new Book();로 객체들을 만들어야 비로소 배열이 완성된다.
 //		4. book[0], book[1], ... , book[9] 모두 Book 객체에 대한 레퍼런스이다.
 //
-//	5. 다음 중 메소드 오버로딩에 실패한 사례는? >> 1
+//	5. 다음 중 메소드 오버로딩에 실패한 사례는? >> 1 / 리턴타입이 달라도 매개변수 개수와 형태가 같음
 //		1) class A{
 //	            int x;
 //	            void f(int a) { x = a; }
 //	            int f(int b) { return x+b; }
 //			}
-//			 
+//	
 //		(2) class A{
 //					int x;
 //					void f(int a ) { x = a; }
@@ -93,14 +93,14 @@ public class ClsProblem {
 //		System.out.println(size + "인치 " + manufacturer);
 //	}
 	
-//	 (2) new TV();와 new Tv("삼성"); 를 실행하면 실행 결과는 각각 무엇인가?
+//	 (2) new TV();와 new TV("삼성"); 를 실행하면 실행 결과는 각각 무엇인가?
 	
 //	>> 32인치 LG
 //	>> 32인치 삼성
 	
 //	 (3) 65인치 "삼성" TV 객체를 생성하는 코드를 적어라.
 	
-//	TV a = new TV(65,"삼성");
+//	>> TV a = new TV(65,"삼성");
 	
 //	 (4) this()를 이용하는 장점은 무엇인가?
 	
@@ -157,6 +157,7 @@ public class ClsProblem {
 //			robot.setPunch(20);
 //		}
 //	}
+//	>> + 생성자를 통해 초기화 할 수 있도록 한다.
 	
 //	9. 다음 코드가 실행될 때 가비지가 발생하는가? 만일 발생한다면 발생하는 위치와 과정을 설명하라.
 //		(1) String s = null;
@@ -187,6 +188,9 @@ public class ClsProblem {
 //			static int g() { return getB(); } //(4)
 //		}
 	
-//		>> 4
+//		>> 4 
+//		static 은 객체 없이 클래스명으로도 접근이 가능하다.
+//		(4)에서 static 으로 non-static인 getB(), int b 를 호출할때
+//		객체가 없으면 non-static 멤버를 호출할 수 없기 때문에 문제 발생.
 	
 }
